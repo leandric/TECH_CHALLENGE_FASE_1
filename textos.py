@@ -1,0 +1,3 @@
+texto1 = '''
+Através do gráfico de linha gerado, podemos visualizar a evolução da quantidade de litros exportados ao longo dos anos. Cada ponto no gráfico representa um ano, enquanto a posição vertical do ponto reflete a quantidade total de litros exportados naquele ano. A linha conectando esses pontos destaca as tendências e flutuações ao longo do período considerado. Tambem é possível se utilizar dos filtros de País e Tipo para afunilar essa análise.
+'''
