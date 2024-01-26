@@ -1,19 +1,34 @@
 
 
 introducao = '''
-A análise da exportação de vinhos no período de 2004 a 2019 revela uma dinâmica complexa e significativa no cenário internacional do comércio vitivinícola. Este estudo visa examinar as tendências, os fatores econômicos e as mudanças estruturais que influenciaram diretamente as transações comerciais de vinhos ao longo desse intervalo temporal.
 
-Durante esses 16 anos, observamos uma série de transformações nas preferências dos consumidores, no comportamento do mercado e nas estratégias adotadas pelos produtores para se adaptarem a um ambiente de comércio global em constante evolução. Questões como inovações tecnológicas na produção, variações nos padrões de consumo e flutuações econômicas desempenham papéis cruciais na compreensão da trajetória da exportação de vinhos nesse período.
+Este estudo tem como objetivo analisar as tendências nas exportações de bebidas derivadas de uva ao longo de um intervalo de 16 anos, compreendendo o período de 2004 a 2019. Pretendemos examinar as transformações nas exportações por país, compreendendo o comportamento do mercado internacional.
 
-Esta análise técnica pretende fornecer uma visão aprofundada das dinâmicas comerciais, explorando dados estatísticos, tendências de mercado e fatores regulatórios que moldaram o panorama global da exportação de vinhos. Ao delinear os principais impulsionadores e desafios enfrentados pela indústria vinícola ao longo desses anos, pretendemos contribuir para uma compreensão mais abrangente do comércio internacional de vinhos e seu impacto no contexto econômico global.
-
-
+Com base na análise dos dados obtidos de {inserir a fonte}, planejamos identificar os países com um mercado mais promissor e elaborar uma proposta comercial simplificada para os produtos exportados.
 '''
 
+desc_grafico_obj=''''
+
+'''
 
 texto_grafico_introducao = '''
 
 <p style="text-align: center; font-weight: bold;">Abaixo a representativade da exportaçãp de bebidas ao longo dos últimos anos.</p>
 
 
+'''
+
+titulo_grafico1_desempenho = '''
+<p style="text-align: center; font-weight: bold;">Litros Exportados ao Longo dos Anos</p>
+
+'''
+
+titulo_grafico1_desempenho2 = '''
+<p style="text-align: center; font-weight: bold;">Valor de Exportação ao Longo do Tempo (Dolar</p>
+
+'''
+
+
+info_uva = '''
+*Embora o produto "Uva" esteja incluído nos dados, nossa análise concentra-se especificamente em bebidas derivadas da uva. No entanto, decidimos manter essa informação no conjunto de dados para fins de comparação, dado que representa a matéria-prima dos produtos que estão sendo analisados.*
 '''
