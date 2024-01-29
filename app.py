@@ -17,7 +17,7 @@ def transform(df):
 st.session_state['dataframe'] = transform(pd.read_csv('https://raw.githubusercontent.com/leandric/Exportacao-de-Vinho-e-Derivados/main/base_tratada/base_final_v7.csv'))
 
 # Conteudo
-st.header('Vinícolas Brasileiras: Desempenho e Estratégias (2004 - 2019)', divider=True)
+st.header('Vinícolas Brasileiras: Analise de Mercado Internacional (2004 - 2019)', divider=True)
 tab1, tab2, tab3, tab4 = st.tabs(['Introdução',
                                         'Desempenho Hístorico',
                                         'Análise de Mercado Internacional',

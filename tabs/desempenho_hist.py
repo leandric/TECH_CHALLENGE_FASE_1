@@ -193,7 +193,7 @@ def graph_continente_litros(df):
 
 def main():
     df = transform(st.session_state['dataframe'].copy())
-    
+    st.image('tabela_6.png')
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         df = filter_periodo(df)
@@ -206,9 +206,14 @@ def main():
 
     col1, col2 = st.columns(2)
 
-    st.markdown('### Tabela de Comparação')
 
-    st.dataframe(table_pivot(df, filtro_uva_ativo)[0], hide_index=True, column_order=table_pivot(df, filtro_uva_ativo)[1])
+
+    st.markdown('### Tabela de Comparação')
+    col1, col2 = st.columns(2)
+    with col1:
+        st.dataframe(table_pivot(df, filtro_uva_ativo)[0], hide_index=True, column_order=table_pivot(df, filtro_uva_ativo)[1])
+    with col2:
+        st.markdown(textos_desempenho_hist.text_lateral)
 
     st.markdown('')
     st.markdown('')

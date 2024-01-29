@@ -80,7 +80,7 @@ def main():
     with st.container():
         col1, col2 = st.columns(2)
         with col1:
-            with st.expander("Forças (Strengths)"):
+            with st.expander("Forças (Strengths)", expanded=True):
                 st.write(
                     """
                     <ul>
@@ -92,7 +92,7 @@ def main():
                     """
                 , unsafe_allow_html=True)
         with col2:
-            with st.expander("Fraquezas (Weaknesses)"):
+            with st.expander("Fraquezas (Weaknesses)" , expanded=True):
                 st.write(
                     """
                     <ul>
@@ -105,7 +105,7 @@ def main():
         col1, col2 = st.columns(2)
 
         with col1:
-            with st.expander("Oportunidades (Opportunities)"):
+            with st.expander("Oportunidades (Opportunities)", expanded=True):
                 st.write(
                     """
                     <ul>
@@ -116,7 +116,7 @@ def main():
                     """
                 , unsafe_allow_html=True)
         with col2:
-            with st.expander("Ameaças (Threats)"):
+            with st.expander("Ameaças (Threats)", expanded=True):
                 st.write(
                     """
                     <ul>

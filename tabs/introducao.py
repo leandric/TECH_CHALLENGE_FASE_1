@@ -57,7 +57,7 @@ def main():
     with col1:
         st.markdown('## Objetivo')
         st.markdown(textos_introducao.introducao)
-        st.image('https://i0.wp.com/www.wine.com.br/winepedia/wp-content/uploads/2022/04/181788-post-de-3000-descubra-x-uvas-para-vinhos-que-voce-nao-conhecia.jpg')
+        st.image('capa.jpg')
 
     with col2:
         st.markdown(textos_introducao.grafico_introducao, unsafe_allow_html=True)
