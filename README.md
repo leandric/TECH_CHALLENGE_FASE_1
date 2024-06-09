@@ -45,4 +45,13 @@ streamlit run app.py
 
 Isso iniciará a aplicação Streamlit localmente e você poderá acessá-la no seu navegador.
 
+# Streamlit App
+
+![Texto Alternativo](img/screencapture-exportacao-de-vinho-e-derivados-moe5x7m9uh9nef9xcuhppb-streamlit-app-2024-06-08-23_15_11.png)
+![Texto Alternativo](img/screencapture-exportacao-de-vinho-e-derivados-moe5x7m9uh9nef9xcuhppb-streamlit-app-2024-06-08-23_15_33.png)
+![Texto Alternativo](img/screencapture-exportacao-de-vinho-e-derivados-moe5x7m9uh9nef9xcuhppb-streamlit-app-2024-06-08-23_15_55.png)
+![Texto Alternativo](img/screencapture-exportacao-de-vinho-e-derivados-moe5x7m9uh9nef9xcuhppb-streamlit-app-2024-06-08-23_16_14.png)
+
+
+
 
